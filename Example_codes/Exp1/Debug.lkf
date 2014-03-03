@@ -1,0 +1,5 @@
+-z -c -m"./Debug/Exp1.map" -o"./Debug/Exp1.out" -w -x -i"C:/CCStudio_v3.1/c6000/dsk6713/lib" -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib" -l"dsk6713bsl.lib"
+"C:\wesley\classes\DSP-LAB\2007\Lab7\Exp1\Exp1cfg.cmd"
+"C:\wesley\classes\DSP-LAB\2007\Lab7\Exp1\Debug\Exp1.obj"
+"C:\wesley\classes\DSP-LAB\2007\Lab7\Exp1\Debug\Exp1cfg.obj"
+"C:\wesley\classes\DSP-LAB\2007\Lab7\Exp1\Debug\Exp1cfg_c.obj"

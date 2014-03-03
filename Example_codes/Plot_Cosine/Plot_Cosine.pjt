@@ -1,0 +1,43 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="D:\wesley\classes\DSP-LAB\2009\Lab1\"
+ProjectType=Executable
+CPUFamily=TMS320C67XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="C:\CCStudio_v3.1\C6000\cgtools\lib\rts6700.lib"
+Source="Plot_Cosine.c"
+Source="Plot_Cosine.gel"
+Source="Plot_Cosine.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -d"_DEBUG" -mv6700
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -mv6700
+
+["Linker" Settings: "Debug"]
+Options=-c -o".\Debug\Plot_Cosine.out" -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\Plot_Cosine.map" -o".\Release\Plot_Cosine.out" -w -x
+
+["Plot_Cosine.gel" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Plot_Cosine.gel" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Plot_Cosine.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["Plot_Cosine.cmd" Settings: "Release"]
+LinkOrder=1
+

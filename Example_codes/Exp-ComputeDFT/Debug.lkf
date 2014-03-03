@@ -1,0 +1,4 @@
+-z -c -o"./Debug/Exp-ComputeDFT.out" -x -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib"
+"C:\wesley\classes\DSP-LAB\6713\Lab2\Exp-ComputeDFT\Exp-ComputeDFT.cmd"
+"C:\wesley\classes\DSP-LAB\6713\Lab2\Exp-ComputeDFT\Debug\Exp-ComputeDFT.obj"
+"C:\CCStudio_v3.1\C6000\cgtools\lib\rts6700.lib"

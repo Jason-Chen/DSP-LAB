@@ -1,0 +1,16 @@
+------------------------------  Exp2.pjt - Debug  ------------------------------
+[Exp2.cdb] "C:\CCStudio_v3.1\plugins\bios\gconfgen" Exp2.cdb
+
+[aic23.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/wesley/classes/DSP-LAB/2007/Lab7/Exp2/Debug" -i"." -i"C:/CCStudio_v3.1/c6000/dsk6713/include" -d"_DEBUG" -d"CHIP_6713" -mv6710 -@"Debug.lkf" "aic23.c"
+
+[Exp2.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/wesley/classes/DSP-LAB/2007/Lab7/Exp2/Debug" -i"." -i"C:/CCStudio_v3.1/c6000/dsk6713/include" -d"_DEBUG" -d"CHIP_6713" -mv6710 -@"Debug.lkf" "Exp2.c"
+
+[Exp2cfg.s62] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/wesley/classes/DSP-LAB/2007/Lab7/Exp2/Debug" -i"." -i"C:/CCStudio_v3.1/c6000/dsk6713/include" -d"_DEBUG" -d"CHIP_6713" -mv6710 -@"Debug.lkf" "Exp2cfg.s62"
+
+[Exp2cfg_c.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/wesley/classes/DSP-LAB/2007/Lab7/Exp2/Debug" -i"." -i"C:/CCStudio_v3.1/c6000/dsk6713/include" -d"_DEBUG" -d"CHIP_6713" -mv6710 -@"Debug.lkf" "Exp2cfg_c.c"
+
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

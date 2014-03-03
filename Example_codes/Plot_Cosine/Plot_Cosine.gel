@@ -1,0 +1,6 @@
+menuitem "Application Control"
+
+slider Gain(0,10,1,1,gainParm)
+{
+	gain = gainParm;
+}

@@ -1,0 +1,40 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\wesley\classes\DSP-LAB\2007\Lab7\Exp1\"
+ProjectType=Executable
+CPUFamily=TMS320C67XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="Exp1.c"
+Source="Exp1.cdb"
+
+[Generated Files]
+Source="Exp1cfg.cmd"
+Source="Exp1cfg.s62"
+Source="Exp1cfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -i"." -i"$(Install_dir)\c6000\dsk6713\include" -d"_DEBUG" -mv6710
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -mv6700
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\Exp1.map" -o".\Debug\Exp1.out" -w -x -i"$(Install_dir)\c6000\dsk6713\lib" -l"dsk6713bsl.lib"
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\Exp1.map" -o".\Release\Exp1.out" -w -x
+
+["Exp1cfg.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["Exp1cfg.cmd" Settings: "Release"]
+LinkOrder=1
+

@@ -1,0 +1,4 @@
+-z -c -o"./Debug/Plot_Cosine.out" -x -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib"
+"D:\wesley\classes\DSP-LAB\2009\Lab1\Plot_Cosine.cmd"
+"D:\wesley\classes\DSP-LAB\2009\Lab1\Debug\Plot_Cosine.obj"
+"C:\CCStudio_v3.1\C6000\cgtools\lib\rts6700.lib"
