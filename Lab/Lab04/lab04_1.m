@@ -1,15 +1,16 @@
 clear();
-n = input('Enter the number of term of h[n] = ');
+n = input('How many point of h[n] would like to compute?');
 
 x = [2 3 4 5];
 
-a = [1];
+a = [1 -0.8]; % denominator coefficient
+b = [1 -1];   % numerator coefficient
 h(1) = 1;
 for i = 2 : n
     h(i) = -1/4*0.8^(i-1);
 end
 
-fout = filter(h, a, x);
+fout = filter(b, a, x);
 cout = conv(h, x);
 FOUT = fft(fout);
 COUT = fft(cout);
