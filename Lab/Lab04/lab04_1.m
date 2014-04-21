@@ -1,6 +1,6 @@
 clear();
-n=input('enter the number of term of h[n] = ');
- 
+n=input('Enter the number of term of h[n] = ');
+
 x=[2 3 4 5];
 
 a=[1];
@@ -11,18 +11,18 @@ end
 
 fout=filter(h,a,x);
 cout=conv(h,x);
-FOUT=fft(fout)
-COUT=fft(cout)
- 
+FOUT=fft(fout);
+COUT=fft(cout);
+
 %nF=1:length(x);
 nC=1:n+length(x)-1;
 
 % fill '0' for the filter. Because the length of filter is same as input.
 for ex=length(x)+1:n+length(x)-1
-   fout(ex) = 0; 
-   FOUT(ex) = 0; 
+   fout(ex) = 0;
+   FOUT(ex) = 0;
 end
- 
+
 % freq. domain. (Up)
 subplot(2,2,1); stem(nC,FOUT);
 xlabel('filter - frequency in Hz'); ylabel('|Y(f)|');
